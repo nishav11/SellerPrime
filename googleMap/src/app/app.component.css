@@ -1,0 +1,29 @@
+.content {
+  display: grid;
+  grid-template-columns: 25% 78%;
+  max-width: 960px
+}
+input {
+   margin-bottom:15px;
+    padding:10px;
+    background:none;
+    border-bottom: 1px solid #414a59 !important;
+    border:0;
+    color:#555;
+}
+.map {
+  text-align: center;
+}
+input[type='submit'] {
+    background-color:#ffcc00;
+    cursor:pointer;
+    color:#000;
+    font-weight:bold;
+    margin-bottom:50px;
+    padding:12px;
+}
+
+agm-map {
+  width: 76vw;
+  height: 78vh
+}
